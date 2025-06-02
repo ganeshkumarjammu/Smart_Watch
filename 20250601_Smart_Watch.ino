@@ -22,7 +22,6 @@ void loop() {
   display.clearDisplay();
   display.setCursor(0, 0);
   display.print("HR:");
-  display.print(pox.getHeartRate());
   display.print(" bpm");
   display.setCursor(0, 20);
   display.print("SpO2:");
